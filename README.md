@@ -11,14 +11,15 @@ The objective of this project is to predict which ***tweets*** are about real di
 
 ## Files
 ### pulisciParole.py
-This file cleans all tweets from unuseful tags, emojis, URL and all kinds of like stuff which could create some problems to classify correctly the tweets.
+This file takes as input the files *train.csv* and *test.csv*. It cleans all tweets from unuseful tags, emojis, URL and all kinds of like stuff which could create some problems to classify correctly the tweets. Finally, as output, it produces new clean files named *train_cleaned.csv* and *test_cleaned.csv*.
 
 ### findModello.py
-This file makes a comparison between some classification models by doing the cross validation and computing the score for each model. <br>
-At the end, in order to perform the classification of the tweets as well as possible, the model with the highest score has been chosen.
+This file takes *train_cleaned.csv* and *test_cleaned.csv* in input. <br>
+It makes a comparison between some classification models by doing the cross validation and computing the score for each model. At the end, in order to perform the classification of the tweets as well as possible, the model with the highest score has been chosen.
 
 ### SVC_formula.py
-This file implements the SVC model by using the theory formulas of the Support Vector Machine.
+This file implements the SVC model by using the mathematical formulas of the Support Vector Machine. <br>
+Since in the file *findModello.py* has been found that the best model is the SVM, I developed the SVM model from scratch in order to see if was possible to reach better predictions than ones obteined using the algorithm implemented in the libraries.
 
 ## File directory
 In this directory there are:
