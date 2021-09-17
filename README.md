@@ -1,9 +1,13 @@
+# Tweet classification
+
+*Author: Marco Scanu*
+
 ## Description
 Twitter has become an important communication channel in times of emergency.<br>
 The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies).
 
-## Goal
-Predict which Tweets are about real disasters and which ones are not.
+## Objective
+The objective of this project is to predict which ***tweets*** are about real disasters and which ones are not.
 
 ## Files
 ### pulisciParole.py
@@ -11,7 +15,7 @@ This file cleans all tweets from unuseful tags, emojis, URL and all kinds of lik
 
 ### findModello.py
 This file makes a comparison between some classification models by doing the cross validation and computing the score for each model. <br>
-In the end, is choseen the model with the highest scoreto classify the tweets.
+At the end, in order to perform the classification of the tweets as well as possible, the model with the highest score has been chosen.
 
 ### SVC_formula.py
 This file implements the SVC model by using the theory formulas of the Support Vector Machine.
