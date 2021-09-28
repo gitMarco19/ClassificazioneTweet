@@ -1,6 +1,6 @@
 # Tweet classification
 
-*Author: Marco Scanu*
+*Authors: Marco Scanu and Luca Mirenda*
 
 ## Description
 Twitter has become an important communication channel in times of emergency.<br>
